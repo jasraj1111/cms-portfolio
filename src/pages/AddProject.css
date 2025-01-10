@@ -1,0 +1,83 @@
+.add-project {
+    padding: 1.5rem;
+    max-width: 32rem; /* 512px */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+
+
+.add-project form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 512px; 
+}
+
+.add-project input,
+.add-project textarea {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: all 0.2s ease;
+    width: auto; /* Set width to 100% of the container */
+}
+
+.add-project textarea {
+    min-height: 205px;
+    resize: vertical;
+}
+
+.add-project button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.add-project button:hover {
+    background-color: #ea580c;
+    transform: scale(1.02);
+}
+
+.add-project button:active {
+    transform: scale(0.98);
+}
+
+.add-project button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #f97316;
+}
+
+.success {
+    color: #16a34a;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+    .add-project {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .add-project button {
+        width: 100%;
+    }
+}
