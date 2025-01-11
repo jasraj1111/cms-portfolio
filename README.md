@@ -49,7 +49,7 @@ DELETE /api/projects/:id: Delete a project (requires authentication)
    MONGO_URI=your_mongodb_uri
    PORT=5000
    JWT_SECRET=your_jwt_secret
-   SSL_KEY_PATH=./privkey.pem
+   SSL_KEY_PATH=./key.pem
    SSL_CERT_PATH=./cert.pem
 
 4. **Run the Development Server**:
