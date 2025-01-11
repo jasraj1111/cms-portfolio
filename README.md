@@ -27,10 +27,10 @@ This project is a dynamic **Portfolio Website** integrated with a **Content Mana
 
 
 ## API Endpoints
--**GET** /api/projects: Retrieve all projects
--**POST** /api/projects: Add a new project (requires authentication)
--**PUT** /api/projects/:id: Update a project (requires authentication)
--**DELETE** /api/projects/:id: Delete a project (requires authentication)
+- **GET** /api/projects: Retrieve all projects
+- **POST** /api/projects: Add a new project (requires authentication)
+- **PUT** /api/projects/:id: Update a project (requires authentication)
+- **DELETE** /api/projects/:id: Delete a project (requires authentication)
 
 ## Setup and Installation
 1. **Clone the Repository**:
@@ -68,7 +68,7 @@ This project is a dynamic **Portfolio Website** integrated with a **Content Mana
 ## Contact
 For questions or suggestions, feel free to reach out:
 
--**Email**: jasrajshen2020@gmail.com
--**LinkedIn**: https://www.linkedin.com/in/jasraj-shendge/
+- **Email**: jasrajshen2020@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/jasraj-shendge/
 
 
