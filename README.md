@@ -37,7 +37,8 @@ DELETE /api/projects/:id: Delete a project (requires authentication)
    ```bash
    git clone https://github.com/username/repository-name.git
 
-##Contact
+
+## Contact
 For questions or suggestions, feel free to reach out:
 
 Email: jasrajshen2020@gmail.com
