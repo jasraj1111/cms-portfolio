@@ -10,15 +10,18 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-}
-
-table, th, td {
-    border: 1px solid #ddd;
+    table-layout: fixed; 
 }
 
 th, td {
     padding: 8px;
-    text-align: left;
+    text-align: center;
+    border: 1px solid #ddd;
+    max-width: 200px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
 }
 
 button {
@@ -73,5 +76,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-
