@@ -37,6 +37,36 @@ DELETE /api/projects/:id: Delete a project (requires authentication)
    ```bash
    git clone https://github.com/username/repository-name.git
 
+2. Install Dependencies:
+
+Navigate to the project directory and install the required packages:
+```bash
+  Copy code
+  cd portfolio-website
+  npm install
+
+3 .Environment Variables:
+
+Create a .env file in the root of your project and add the following:
+``` bash
+MONGO_URI=your_mongodb_uri
+PORT=5000
+JWT_SECRET=your_jwt_secret
+SSL_KEY_PATH=./privkey.pem
+SSL_CERT_PATH=./cert.pem
+Run the Development Server:
+
+```bash
+npm run dev
+Build for Production:
+
+```bash
+npm run build
+Start the Server:
+
+```bash
+node server.js
+
 
 ## Contact
 For questions or suggestions, feel free to reach out:
