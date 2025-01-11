@@ -67,7 +67,8 @@ DELETE /api/projects/:id: Delete a project (requires authentication)
 
 ## Contact
 For questions or suggestions, feel free to reach out:
--Email: jasrajshen2020@gmail.com
--LinkedIn: https://www.linkedin.com/in/jasraj-shendge/
+
+-**Email**: jasrajshen2020@gmail.com
+-**LinkedIn**: https://www.linkedin.com/in/jasraj-shendge/
 
 
