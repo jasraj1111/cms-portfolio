@@ -1,4 +1,4 @@
-# Portfolio Website with CMS Integration
+# Content Management Sysytem Integrated into Portfolio Website
 
 ## Overview
 This project is a dynamic **Portfolio Website** integrated with a **Content Management System (CMS)**. It showcases personal projects, skills, and achievements, allowing users to manage and update content effortlessly via a secure and intuitive dashboard.
