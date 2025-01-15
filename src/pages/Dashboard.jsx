@@ -8,7 +8,7 @@ const Dashboard = () => {
     const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
-        fetch('https://localhost:5000/api/projects', {
+        fetch('http://localhost:5000/api/projects', {
             headers: {
                 'x-auth-token': localStorage.getItem('token'), // Include JWT token
             },
@@ -27,7 +27,7 @@ const Dashboard = () => {
     };
 
     const handleDelete = (id) => {
-        fetch(`https://localhost:5000/api/projects/${id}`, {
+        fetch(`http://localhost:5000/api/projects/${id}`, {
             method: 'DELETE',
             headers: {
                 'x-auth-token': localStorage.getItem('token'),
@@ -42,7 +42,7 @@ const Dashboard = () => {
 
     const handleUpdate = (e) => {
         e.preventDefault();
-        fetch(`https://localhost:5000/api/projects/${editingProject._id}`, {
+        fetch(`http://localhost:5000/api/projects/${editingProject._id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',

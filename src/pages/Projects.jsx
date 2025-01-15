@@ -8,7 +8,7 @@ const Projects = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('https://localhost:5000/api/projects')
+        fetch('http://localhost:5000/api/projects')
             .then((response) => {
                 if (!response.ok) throw new Error('Failed to fetch projects');
                 return response.json();

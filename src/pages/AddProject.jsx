@@ -16,7 +16,7 @@ const AddProject = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        fetch('https://localhost:5000/api/projects', {
+        fetch('http://localhost:5000/api/projects', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
